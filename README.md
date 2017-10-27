@@ -51,3 +51,20 @@ This is the order in which you should create the elements and the nesting relati
     * ```h1``` with an id of "product". This h1 should contain the text: Nothing yet.     
 
 ### Part III CSS
+To complete Part III, fulfill the following requirements in CSS:
+
+1. We will start by building the cauldron. In your HTML, you created an empty div with an id of cauldron. In your CSS, target this div, and set the following properties:
+* width: 300px
+* height: 300px
+* border-radius: 200px;
+* border: 20px solid black;
+* background-color: pink;
+
+2. Now, we have what looks like our stew from the top view. Delicious! But, not quite magical just yet. Create an animation using CSS keyframes to change the background color of this brew continuously. Hint: https://www.w3schools.com/css/css3_animations.asp
+
+3. Use your creativity and imagination to make this site something Grandma Witch would be proud of! Use your knowledge of Flex Box and CSS properties to make your page nice and spooky. Shown below is one example of how you could lay out your page.
+
+![Example Layout](https://github.com/junior-devleague/witch-brew/blob/master/example-layout.jpg)
+
+### Part IV JS
+To complete Part IV, fulfill the following requirements in JS:
