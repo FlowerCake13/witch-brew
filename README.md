@@ -54,8 +54,8 @@ This is the order in which you should create the elements and the nesting relati
 To complete Part III, fulfill the following requirements in CSS:
 
 1. We will start by building the cauldron. In your HTML, you created an empty div with an id of cauldron. In your CSS, target this div, and set the following properties:
-* width: 300px
-* height: 300px
+* width: 300px;
+* height: 300px;
 * border-radius: 200px;
 * border: 20px solid black;
 * background-color: pink;
