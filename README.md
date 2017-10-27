@@ -1,6 +1,6 @@
 # witch-brew
 
-It is that time of the year young witches and wizards! Today we will be brewing a secret recipe for our Halloween stew.
+It is that time of the year young witches and wizards! Today we will be brewing a secret recipe for our Halloween stew. Users will have a set of ingredients to choose from (in the form of images). When a user clicks on an image, they will add that to the mix by increasing the ingredient count. If the number and type of ingredients match your recipe, you will display the name of the recipe on the page!
 
 ## Objective
 Use **JavaScript Event Listeners** to track the ingredients being added to the mix on click of the image, **If Statements** to check whether the right amount of ingredients have been added, and *CSS Keyframe Animations** to simulate the cauldron bubbling and changing colors.
@@ -112,4 +112,4 @@ if (batCount >= 3 && scaleCount >= 2) {
 
 ### Stretch Goals
 1. Add your own custom ingredient images to the mix.
-2. Create 3 more secret recipes using different comparison operators (==, !=, >, < ...etc.). 
+2. Create 3 more secret recipes using different comparison operators (==, !=, >, < ...etc.).
