@@ -64,7 +64,7 @@ To complete Part III, fulfill the following requirements in CSS:
 
 3. Use your creativity and imagination to make this site something Grandma Witch would be proud of! Use your knowledge of Flex Box and CSS properties to make your page nice and spooky. Shown below is one example of how you could lay out your page.
 
-![Example Layout](https://github.com/junior-devleague/witch-brew/blob/master/example-layout.jpg)
+![Example Layout](https://github.com/junior-devleague/witch-brew/blob/master/assets/example-layout.jpg)
 
 ### Part IV JS
 To complete Part IV, fulfill the following requirements in JS:
