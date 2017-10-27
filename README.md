@@ -68,3 +68,48 @@ To complete Part III, fulfill the following requirements in CSS:
 
 ### Part IV JS
 To complete Part IV, fulfill the following requirements in JS:
+1. Use ```document.getElementById``` to grab elements from our HTML to use in our JS file. Grab the following elements and store them in variables to be used later on:
+* Images of our ingredents:
+  * bat image
+  * frog image
+  * hat image
+  * pumpkin image
+  * scale image
+* Button to start the "mixing" of ingredients:
+  * button
+* Text areas to store how many ingredients we are using:
+  * h1 with id of product
+  * h2 with id of batcount
+  * h2 with id of frogcount
+  * h2 with id of hatcount
+  * h2 with id of pumpkincount
+  * h2 with id of scalecount
+
+2. Create the following variables to store how many ingredients a user wants to throw into the stew:
+* var batCount
+* var frogCount
+* var hatCount
+* var pumpkinCount
+* var scaleCount
+
+Set the values of all of these variables to 0.
+
+3. Add ```Event Listeners``` to each image to listen for a click event. When someone clicks on the ingredient, we will "add" that to our stew and the following should happen:
+* The count of that ingredient will increase by 1.
+* The ```innerHTML``` of the h2 storing our ingredient count will change to show how many ingredients have been thrown in. Hint: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+
+4. Add an ```Event Listener``` to the button to listen for a click event. When someone clicks on the button, you are going to use an ```If Statement``` to check if it matches your secret recipe. If it does, the ```innerHTML``` of the product div will display the name of your recipe! If not, the ```innerHTML``` of the product div will display something like "Try Again!". Your secret recipe is how many ingredients are needed to form your stew.
+
+For example, my secret recipe is Froggy Witch Stew! It will take at least 3 bats and 2 scales. Thus, my if statement will look something like this.
+
+```JavaScript
+if (batCount >= 3 && scaleCount >= 2) {
+  //Change the innerHTML of my product div to "Foggy Witch Soup!"
+} else {
+  //Change the innerHTML of my product div to "Try again!"
+}
+```
+
+### Stretch Goals
+1. Add your own custom ingredient images to the mix.
+2. Create 3 more secret recipes using different comparison operators (==, !=, >, < ...etc.). 
