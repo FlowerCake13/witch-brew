@@ -41,7 +41,24 @@ mixingButton.addEventListener('click', function(){
 	if (frogCount >= 3 && hatCount >= 2) {
 		product.innerHTML = "Froggy Witch Soup"
 	} 
+	else if (scaleCount >= 3 && hatCount >= 2) {
+		product.innerHTML = "safdasdfasdfasdfasdf"
+	} 	
 	else{
 		product.innerHTML = "Try Again!"
 	}
+	clear();
 })
+
+function clear(){
+	batCount = 0;
+	batText.innerHTML = "Bat: " + batCount
+	frogCount = 0;
+	frogText.innerHTML = "Frog: " + frogCount
+	hatCount = 0;
+	hatText.innerHTML = "Hat: " + hatCount
+	pumpkinCount = 0;
+	pumpkinText.innerHTML = "Pumpkin: " + pumpkinCount
+	scaleCount = 0;
+	scaleText.innerHTML = "Scale: " + scaleCount
+}
